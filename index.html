@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Registration | EASA Certified</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 32px;
+        }
+
+        .container {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            max-width: 580px;
+            width: 100%;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background: #ffffff;
+            padding: 56px 48px;
+            text-align: center;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .logo-container {
+            margin-bottom: 32px;
+        }
+
+        .logo {
+            max-width: 320px;
+            height: auto;
+        }
+
+        .header-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #374151;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .status-badge {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 6px 16px;
+            background: #000000;
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .content {
+            padding: 48px;
+        }
+
+        .info-section {
+            padding: 28px 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .info-section:first-child {
+            padding-top: 0;
+        }
+
+        .info-section:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .info-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #6b7280;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            margin-bottom: 12px;
+        }
+
+        .info-value {
+            font-size: 17px;
+            color: #000000;
+            font-weight: 500;
+            line-height: 1.6;
+            word-break: break-word;
+        }
+
+        .info-value.mono {
+            font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Courier New', monospace;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+        }
+
+        .info-value a {
+            color: #000000;
+            text-decoration: none;
+            border-bottom: 1px solid #d1d5db;
+            transition: border-color 0.2s;
+        }
+
+        .info-value a:hover {
+            border-bottom-color: #000000;
+        }
+
+        .footer {
+            background: #f9fafb;
+            padding: 32px 48px;
+            text-align: center;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .footer-text {
+            font-size: 14px;
+            color: #374151;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .footer-subtext {
+            font-size: 12px;
+            color: #6b7280;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+            
+            .header {
+                padding: 40px 28px;
+            }
+
+            .logo {
+                max-width: 260px;
+            }
+
+            .header-title {
+                font-size: 12px;
+            }
+
+            .status-badge {
+                font-size: 10px;
+                padding: 5px 14px;
+            }
+            
+            .content {
+                padding: 32px 28px;
+            }
+
+            .info-section {
+                padding: 24px 0;
+            }
+            
+            .info-value {
+                font-size: 16px;
+            }
+
+            .info-value.mono {
+                font-size: 15px;
+            }
+
+            .footer {
+                padding: 28px;
+            }
+
+            .footer-text {
+                font-size: 13px;
+            }
+
+            .footer-subtext {
+                font-size: 11px;
+            }
+        }
+
+        @media print {
+            body {
+                background: #ffffff;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border: 1px solid #000000;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-container">
+                <img src="./EASA_Logo.png" alt="EASA - European Aviation Safety Agency" class="logo">
+            </div>
+            <div class="header-title">Registered Drone Operator</div>
+            <div class="status-badge">EASA Certified</div>
+        </div>
+        
+        <div class="content">
+            <div class="info-section">
+                <div class="info-label">Electronic Identification</div>
+                <div class="info-value mono">DEU61zieluz0yoi7</div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-label">Contact Phone</div>
+                <div class="info-value">
+                    <a href="tel:+4917625387357">+49 176 25387357</a>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-label">Email Address</div>
+                <div class="info-value">
+                    <a href="mailto:mshehrozsajjad@gmail.com">mshehrozsajjad@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-label">Registered Location</div>
+                <div class="info-value">Munich, Germany</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-text">
+                European Aviation Safety Agency
+            </div>
+            <div class="footer-subtext">
+                Compliant with EU Regulation 2019/947 & 2019/945
+            </div>
+        </div>
+    </div>
+</body>
+</html>
